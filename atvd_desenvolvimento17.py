@@ -11,10 +11,8 @@ def calculadora():
         print(f'Divisão: {num1/num2}\n')
     elif(op > 4):
         print('Essa operação não existe!\n')
-       
-    
 
-
+          
 print ('====== Calculadora ======\n\n')
 opcao = int(input('Digite 1 para iniciar a calculadora: '))
 
@@ -34,12 +32,4 @@ while(opcao == 1):
         calculadora()   
      if(op == 0):
        break
-     
-
-
-       
-
-
-
-
 
